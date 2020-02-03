@@ -1,9 +1,14 @@
 import React from 'react';
-import forecastUtil from '../util/forecastUtil'
+import Search from './search';
 
 const App = () => {
 
-    <h1>TestingReact</h1>;
+    
+    return(
+        <div>
+            <Search />
+        </div>
+    )
 
 }
 
